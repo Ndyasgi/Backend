@@ -11,7 +11,7 @@ Content-Type: application/json
     "nama": "Pantai Pulisan",
     "alamat": "Desa Pulisan Kec. Likupang Timur",
     "penilaian": "9/10",
-    "deskripsi": "Pantai Pulisan merupakan sebuah wilayah pantai yang baru-baru ini populer diperbincangkan oleh masyarakat umum. Pantai cantik ini berlokasi di Desa Pulisan Kabupaten Minahasa Utara (Minut), Sulawesi Utara. Pantai Pulisan juga terkenal dengan sebutannya sebagai “the hidden paradise”. Sebutan ini diberikan lantaran lokasi dari pantai ini yang tersembunyi. Selain karena keindahan alamnya, berikut uraian singkat tentang daya tarik dan keunikan dari pantai andalas Minut."
+    "deskripsi": "Pantai Pulisan terkenal dengan sebutannya sebagai “the hidden paradise”, Sebutan ini diberikan karena lokasi dari pantai ini yang tersembunyi. Selain karena keindahan alamnya."
 }
 
 ###
