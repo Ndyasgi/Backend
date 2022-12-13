@@ -1,0 +1,180 @@
+GET http://localhost:5000/trip
+
+###
+GET http://localhost:5000/trip/1
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Pantai Pulisan",
+    "alamat": "Desa Pulisan Kec. Likupang Timur",
+    "penilaian": "9/10",
+    "deskripsi": "Pantai Pulisan merupakan sebuah wilayah pantai yang baru-baru ini populer diperbincangkan oleh masyarakat umum. Pantai cantik ini berlokasi di Desa Pulisan Kabupaten Minahasa Utara (Minut), Sulawesi Utara. Pantai Pulisan juga terkenal dengan sebutannya sebagai “the hidden paradise”. Sebutan ini diberikan lantaran lokasi dari pantai ini yang tersembunyi. Selain karena keindahan alamnya, berikut uraian singkat tentang daya tarik dan keunikan dari pantai andalas Minut."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Taman Nasional Bunaken",
+    "alamat": "Kota Manado, Sulawesi Utara",
+    "penilaian": "10/10",
+    "deskripsi": "Taman Nasional Bunaken merupakan kawasan pelestarian ekosistem tropis perairan yang berada di pusat segitiga terumbu karang dunia"
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Pulau Lembeh",
+    "alamat": "Pulau Lembeh, Kota Bitung",
+    "penilaian": "8/10",
+    "deskripsi": "Bagi pecinta diving, kamu nggak akan kehabisan spot diving deh kalau liburan ke Sulawesi Utara. Tapi, kalau mencari spot yang paling cantik maka pesona keindahan bawah laut Pulau Lembeh ini tiada duanya."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Pulau Lihaga",
+    "alamat": "Gangga Satu, Likupang Barat",
+    "penilaian": "8/10",
+    "deskripsi": "Walau letaknya jauh dari pusat Kota Manado, keindahan Pulau Lihaga memang susah ditandingi. Hamparan pasir putih bersih yang dikelilingi air biru nan jernih akan seketika menenangkan pikiranmu!"
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Taman Nasional Tangkoko",
+    "alamat": "Pinangunian, Aertembaga, Kota Bitung",
+    "penilaian": "8/10",
+    "deskripsi": "Kamu akan dengan mudah menemukan hewan imut ini di sela-sela rimbunnya pepohonan. Gemas sekali. Rasanya ingin dibawa pulang, tapi tidak boleh ya karena hewan ini sudah langka dan harus dilestatrikan"
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Hutan Pinus Lahendong",
+    "alamat": "Jalan Lahendong, Tomohon Selatan",
+    "penilaian": "8/10",
+    "deskripsi": "Berada di antara pepohonan pinus yang menjulang tinggi tentu membuat pikiran kita terasa lebih segar. Apalagi bagi kamu yang jenuh dan lelah dengan rutinitas harian yang menyita sebagian besar waktu"
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Patung Yesus Memberkati",
+    "alamat": "Winangun Satu, Kec. Malalayang, Kota Manado",
+    "penilaian": "8/10",
+    "deskripsi": "Patung setinggi 30 meter dengan penyangga setinggi 20 meter ini disebut-sebut sebagai sala satu Patung Kristus termegah di dunia, nggak kalah sama yang ada di Rio de Janeiro, Brazil. Dari kejauhan, keindahan patung ini sudah terlihat jelas dengan jubah yang seakan-akan terbang tertiup angin."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Bukit Larata",
+    "alamat": "Pulisan, Likupang Timur, Kab. Minahasa Utara",
+    "penilaian": "9/10",
+    "deskripsi": "Perpaduan antara hijaunya bukit dengan birunya langit dan laut yang membentang di depan mata membuat tempat ini seperti salah satu kepingan surga yang jatuh di salah satu sudut Indonesia."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Bukit Doa Mahawu Tomohon",
+    "alamat": "Kakaskasen Tiga, Kec. Tomohon Utara, Kota Tomohon",
+    "penilaian": "10/10",
+    "deskripsi": "Saking indahnya, tak jarang tempat ini jadi lokasi favorit para para pasangan yang ingin melakukan pemotretan pre-wedding. Bahkan bisa juga kalau ingin melakukan pemberkatan pernikahan di sini karena juga tersedia sebuah kapel nan indah serta gedung berkapasitas 200 orang."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Danau Linow",
+    "alamat": "Lahendong, Tomohon Sel., Kota Tomohon",
+    "penilaian": "9/10",
+    "deskripsi": "Danau ini merupakan danau vulkanik dengan tingkat keasaman yang tinggi sehingga wajar jika kamu mencium bau belerang. Uniknya, warna Danau Linow berubah-ubah tergantung cuaca dan aktivitas belerang di dalamnya. Terkadang danaunya berwarna kehijauan, terkadang biru, dan terkadang campuran antara keduanya bahkan coklat."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Tuur Maasering",
+    "alamat": "Kumelembuay, Tomohon Timur, Kota Tomohon",
+    "penilaian": "8/10",
+    "deskripsi": "Sebuah cafe dengan bangunan yang terbuat dari kayu dan bambu ini memang asyik untuk jadi tempat nongkrong santai bareng teman-teman."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Arung Jeram Desa Timbukar",
+    "alamat": "Timbukar, Sonder, Kabupaten Minahasa",
+    "penilaian": "8/10",
+    "deskripsi": "Sepanjang arung jeram, kamu akan disuguhkan pemandangan sawah, kebun, hutan, pedesaan, dan tebing-tebing serta bebatuan sungai."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Bukit Kasih",
+    "alamat": "Jl. Kawangkoan-Kanonang, Kec. Kawangkoan Barat, Kab. Minahasa",
+    "penilaian": "8/10",
+    "deskripsi": "Tempat ini sebagai pusat spiritual dimana mereka sering bermeditasi atau berkumpul di bukit ini."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Pantai Paal",
+    "alamat": "Pantai Paal di Desa Marinsow, Likupang Timur",
+    "penilaian": "9/10",
+    "deskripsi": "Pantai Paal di Sulawesi Utara ini memiliki hamparan pasir putih dan halus ditambah nuansa warna kontras gradasi air laut."
+}
+
+###
+POST http://localhost:5000/trip
+Content-Type: application/json
+
+{
+    "nama": "Gunung Klabat",
+    "alamat": "Airmadidi, Kab. Minahasa Utara",
+    "penilaian": "9/10",
+    "deskripsi": "Ini nih gunung yang wajib kamu taklukan saat berada di Sulawesi Utara. Puncak gunungnya berada di ketinggian 2.100mdpl dan menjadi gunung tertinggi di Sulawesi Utara."
+}
+
+###
+PATCH http://localhost:5000/trip
+Content-Type: application/json
+
+{
+
+}
+
+###
+DELETE http://localhost:5000/trip
